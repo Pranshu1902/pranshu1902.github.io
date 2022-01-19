@@ -7,12 +7,9 @@ let loadImage = (src, callback) => {
   img.src = src;
 };
 
-//c.style.background =
-//  "url('C:/Users/DELL/Desktop/Programming/GDC/WD101/Portfolio Website/Martial arts/images/background.jpg')";
-
 let imagePath = (framenumber, task) => {
   return (
-    "/images/" +
+    "images/" +
     task +
     "/" +
     framenumber +
