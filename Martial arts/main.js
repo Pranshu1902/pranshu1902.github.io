@@ -12,7 +12,7 @@ let loadImage = (src, callback) => {
 
 let imagePath = (framenumber, task) => {
   return (
-    "C:/Users/DELL/Desktop/Programming/GDC/WD101/Portfolio Website/Martial arts/images/" +
+    "/images/" +
     task +
     "/" +
     framenumber +
