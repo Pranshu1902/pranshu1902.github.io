@@ -1,49 +1,65 @@
 <html class="main">
 <link href="index.css" rel="stylesheet">
 
-<style> 
-    body {
-        background-image: url("http://sfwallpaper.com/images/colors-background-12.jpg");
-        background-color: #cccccc;
-        background-size: auto;
-    }
-</style>
 
-
-<h1>Pranshu Aggarwal</h1>
-
-<body>
+<div style="font-family: sans-serif;">
 
 <div class="links">
-<a class="links" href="projects.html">Projects</a>
-<a class="links" href="interest.html">Interests</a>
+<a class="links txt" href="projects.html">Projects</a>
+<a class="links txt" href="interest.html">Interests</a>
 </div>
 
+<head>
+    <h1 class="animate">Pranshu Aggarwal</h1>
 
-<h2 class="para">Pranshu is a tech enthusiast and full stack developer</h2>
+
+</head>
+<body>
 
 
-<div style="float:left">
-<a href="https://github.com/Pranshu1902/" target="_blank">
-<img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg">
+<h2 class="para">Full Stack Developer</h2>
+
+
+
+<!--Bounceing images in canvas-->
+<div class="move">
+<a href="https://github.com/Pranshu1902/">
+<canvas id="bounce" height="300px" width="400px"></canvas>
 </a>
-</div>
 
-<div style="float: left">
-<a href="https://www.linkedin.com/in/pranshu-aggarwal-4aa8181b4/" target="_blank">
-<img src="https://brandlogos.net/wp-content/uploads/2016/06/linkedin-logo-512x512.png">
+<a href="https://www.linkedin.com/in/pranshu-aggarwal-4aa8181b4/">
+    <canvas id="bounce2" height="300px" width="300px"></canvas>
 </a>
+
+<a href="https://twitter.com/PranshuAggarw20">
+    <canvas id="bounce3" height="300px" width="300px"></canvas>
+</a>        
+
+<script type="text/javascript" src="main.js"></script>
 </div>
+<!--Bouncing images over-->
 
 
-
-<div style="float:left">
-    <a href="https://twitter.com/PranshuAggarw20" target="_blank">
-    <img src="https://cutewallpaper.org/21/twitter-logo-transparent-background/Twitter-logo-transparent-background-png-6-PNG-Image.png">
+<div class="second">
+    <p style="font-size: 70px; height: 250px; text-align: center;">I am a tech enthusiast and full stack developer.</p>
+    <p class="second_text">Some of my previous works:</p>
+    <div style="text-align: center;">
+    <p class="second_project">
+    <br><br>
+        Jarvis: Meeting Manager
+    </p>
+    <img src="jarvis.png">
+    <br><br>
+    <a href="projects.html">
+        <button class="but buto" onclick="projects.html">More ➡</button>
     </a>
-    </div>
-    
+    <br>
+</div>
+    <hr>
+</div>
+<p style="color: white; text-align: right; font-size: 20px;">Portfolio 2022<br>Designed and developed by Pranshu</p>
 
+</div>
 </body>
 
 
