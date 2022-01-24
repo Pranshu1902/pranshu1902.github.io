@@ -1,7 +1,3 @@
-html {
-  scroll-behavior: smooth;
-}
-
 .my-heading {
   background-color: aqua;
   text-decoration: underline;
@@ -156,6 +152,7 @@ img {
 
 .main {
   background-color: black;
+  scroll-behavior: smooth;
 }
 
 .interest {
