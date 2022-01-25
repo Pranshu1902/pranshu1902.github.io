@@ -57,8 +57,8 @@ function myAnimation2() {
     stepY = -stepY;
   }
   y_icon_linkedin += stepY;
-  y_icon_bg1 += stepY;
-  drawCircle((2 * x_icon + 150) / 2, y_icon_bg1, radius, "gray", ctx1);
+  y_icon_bg2 += stepY;
+  drawCircle((2 * x_icon + 150) / 2, y_icon_bg2, radius, "gray", ctx1);
   ctx1.drawImage(Img1, x_icon, y_icon_linkedin, 150, 150);
 }
 
@@ -68,8 +68,8 @@ function myAnimation3() {
     stepY = -stepY;
   }
   y_icon1 += stepY;
-  y_icon_bg2 += stepY;
-  drawCircle((2 * x_icon + 150) / 2, y_icon_bg, radius, "gray", ctx2);
+  y_icon_bg1 += stepY;
+  drawCircle((2 * x_icon + 150) / 2, y_icon_bg1, radius, "gray", ctx2);
   ctx2.drawImage(Img2, x_icon, y_icon1, 150, 150);
 }
 

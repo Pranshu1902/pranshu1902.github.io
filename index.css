@@ -58,6 +58,26 @@ h2 {
   }
 }
 
+/*Animations on reload for about page*/
+/*animations on reload*/
+.animate_about {
+  width: 800px;
+  height: 90px;
+  text-align: left;
+  animation-name: animate_about;
+  animation-duration: 2s;
+}
+
+@keyframes animate_about {
+  0% {
+    margin-top: -200px;
+  }
+  100% {
+    margin-top: 30px;
+  }
+}
+/*animation over*/
+
 .move {
   text-align: center;
 }
@@ -150,9 +170,29 @@ img {
   height: 45;
 }
 
+.links_home {
+  text-align: right;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-right: 30px;
+  text-decoration: none;
+  color: white;
+  font-style: bold;
+  height: 45;
+  float: left;
+}
+
 .main {
   background-color: black;
   scroll-behavior: smooth;
+}
+
+p.about {
+  font-size: 40px;
+  text-align: left;
+  float: right;
+  width: 800px;
+  color: white;
 }
 
 .interest {
