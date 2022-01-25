@@ -8,7 +8,7 @@ let loadImage = (src, callback) => {
 };
 
 let imagePath = (framenumber, task) => {
-  return "Martial arts/images/" + task + "/" + framenumber + ".png";
+  return "images/" + task + "/" + framenumber + ".png";
 };
 
 let frames = {
