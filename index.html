@@ -1,69 +1,62 @@
-<html class="main">
-<link href="index.css" rel="stylesheet">
-<link rel="icon" type="image/x-icon" href="p.ico">
+<html>
 
+    <head><title>Pranshu</title></head>
+    <link rel="icon" type="image/x-icon" href="p.ico">
 
-<div style="font-family: sans-serif;">
+    <style>
+                .animate {
+        width: auto;
+        height: auto;
+        text-align: left;
+        animation-name: animate;
+        animation-duration: 2s;
+        }
 
-<div class="links">
-<a class="links txt" href="projects.html">Projects</a>
-<a class="links txt" href="interest.html">Interests</a>
-<a class = "links txt" href="about.html">About</a>
-</div>
+        @keyframes animate {
+        0% {
+            margin-top: -200px;
+        }
+        100% {
+            margin-top: 10px;
+        }
+        }
+    </style>
 
-<head>
-    <h1 class="animate">Pranshu Aggarwal</h1>
+    <!--Linking to Tailwind-->
+    <link rel="stylesheet" href="tailwind\build\tailwind.css">
+    
+    <!--Main body-->
+    <body class="animate scroll-smooth font-bold bg-black text-3xl p-5 border-black border-8 motion-safe:animate-fadeIn">
+        <!--Links-->
+        <div>
+            <a href="index.html" class="text-white text-2xl transition duration-15 border-b-4 border-transparent hover:border-white">Home</a>
+            <div class="float-right space-x-7 text-2xl">
+                <a href="project.html" class="text-white transition duration-15 border-b-4 border-transparent hover:border-white">Projects</a>
+                <a href="about.html" class="text-white transition duration-15 border-b-4 border-transparent hover:border-white">About Me</a>
+                <a href="contact.html" class="text-white transition duration-15 border-b-4 border-transparent hover:border-white">Contact</a>
+                </div>
+        </div>
+        <br>
 
+        <!--Main content-->
+        <div class="pb-48">
+            <h1 class="text-gray-400 font-sans text-6xl pt-20 pb-32">Pranshu Aggarwal</h1>
 
-</head>
-<body>
+        <!--Intro-->
+        <p class="text-white font-sans text-8xl float-center pt-2 pl-32">Full Stack Developer</p>
+        <br><br>
+    </div>
 
-
-<h2 class="para">Full Stack Developer</h2>
-
-
-
-<!--Bounceing images in canvas-->
-<div class="move">
-<a href="https://github.com/Pranshu1902/">
-<canvas id="bounce" height="300px" width="400px"></canvas>
-</a>
-
-<a href="https://www.linkedin.com/in/pranshu-aggarwal-4aa8181b4/">
-    <canvas id="bounce2" height="300px" width="300px"></canvas>
-</a>
-
-<a href="https://twitter.com/PranshuAggarw20">
-    <canvas id="bounce3" height="300px" width="300px"></canvas>
-</a>        
-
-<script type="text/javascript" src="main.js"></script>
-</div>
-<!--Bouncing images over-->
-
-
-<div class="second">
-    <p style="font-size: 70px; height: 250px; text-align: center;">I am a tech enthusiast and full stack developer.</p>
-    <p class="second_text">Some of my previous works:</p>
-    <div style="text-align: center;">
-    <p class="second_project">
-    <br><br>
-        Jarvis: Meeting Manager
-    </p>
-    <img src="jarvis.png">
-    <br><br>
-    <a href="projects.html">
-        <button class="but buto" onclick="projects.html">More ➡</button>
-    </a>
-    <br>
-</div>
+    <div class="flex flex-row justify-center pb-12 md:animate-bounce">
+        <a href="https://github.com/Pranshu1902/"><img width="250" height="250" class="pl-12" src="github_circle.png" alt="github"></a>
+        <a href="https://www.linkedin.com/in/pranshu-aggarwal-4aa8181b4/"><img width="250" height="250" class="md:animate-bounce pl-12" src="linkedin_circle.png" alt="linkedin"></a>
+        <a href="https://twitter.com/PranshuAggarw20"><img width="250" height="250" class="pl-12" src="twitter_circle.png" alt="twitter"></a>
+    </div>
+    
+    <!--Ending statement-->
     <hr>
-</div>
-<p style="color: white; text-align: right; font-size: 20px;">Portfolio 2022<br>Designed and developed by Pranshu</p>
+    <p style="color: white; text-align: right; font-size: 20px;">Portfolio 2022<br>Designed and developed by Pranshu</p>
 
-</div>
-</body>
-
-
+    </div>
+    </body>
 </html>
-
