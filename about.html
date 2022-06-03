@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css">
 
     <!--Main body-->
-    <body class="font-bold bg-black text-3xl p-5 border-black border-8 motion-safe:animate-fadeIn">
+    <body class="justify-center font-bold bg-black text-3xl p-5 border-black border-8 motion-safe:animate-fadeIn flex flex-col md:w-3/5 lg:w-full">
         <!--Links-->
         <div>
             <a href="index.html" class="text-white text-2xl transition duration-15 border-b-4 border-transparent hover:border-white">Home</a>
@@ -19,38 +19,37 @@
         </div>
         <br>
         <!--Main content-->
-        <div class="pb-96">
+        <div class="pb-12">
         <h1 class="text-gray-100 font-sans text-7xl pt-20 animate-pulse">Pranshu Aggarwal</h1>
         <br>
-        <p class="text-white font-sans text-3xl float-right pb-8 pt-44 pl-80">I am a Full Stack Developer and Computer Science Fresher from VIT. I am passionate about creating products to make the world a better place.</p>
-        <br><br>
-        <p class="text-gray-300 font-sans text-2xl float-right pb-8 pl-80">Started learning to code as a hobby rather than a career focus. Eager to meet new people work as a team. I also love to read books.</p>
+        <p class="text-white font-sans text-3xl float-right pb-8 pt-44 pl-80">I am a Full Stack Developer and Computer Science Fresher from VIT. I am passionate about creating products to make people's lives better.<br><p class="text-gray-300 font-sans text-2xl float-right pb-8 pl-80">Started learning to code as a hobby rather than a career focus. Eager to meet new people work as a team. I also love to read books.</p></p>
         <br><br>
         <p class="text-white font-sans text-4xl float-left pb-20 pt-6 pl-80">Sic Parvis Magna</p>
         </div>
         <!--Tools and Tech-->
-        <h1 class="text-gray-100 font-sans text-5xl pt-24 pb-24">Tech & Tools</h1>
-        <br>
-        <div class="grid grid-cols-5 gap-4 rounded-md hover:animate-bounce float-right pb-24 pl-24">
-            <div class="float-right flex flex-row pr-5 pb-10"><img src="tech/java.png" alt="Java" width="100" height="100"><p class="text-white text-xl pl-1 pt-6">Java</p></div>
-            <div class="float-right flex flex-row pr-5 pb-10"><img src="tech/python.png" alt="Python" width="90" height="40"><p class="text-white text-xl pl-1 pt-6">Python</p></div>
-            <div class="float-right flex flex-row pr-5 pb-10"><img src="tech/numpy.png" alt="Numpy" width="100" height="100"><p class="text-white text-xl pl-1 pt-6">Numpy</p></div>
-            <div class="float-right flex flex-row pr-5 pb-10"><img src="tech/css.png" alt="CSS" width="80" height="80"><p class="text-white text-xl pl-1 pt-6">CSS</p></div>
-            <div class="float-right flex flex-row pr-5 pb-10"><img src="tech/html.png" alt="HTML" width="100" height="100"><p class="text-white text-xl pl-1 pt-6">HTML</p></div>
-            <div class="float-right flex flex-row pr-5 pb-10"><img src="tech/js.png" alt="JS" width="80" height="50"><p class="text-white text-xl pl-1 pt-6">JavaScript</p></div>
-            <div class="float-right flex flex-row pr-5 pb-10"><img src="tech/github1.svg" alt="Github" width="100" height="100"><p class="text-white text-xl pl-1 pt-6">GitHub</p></div>
-            <div class="float-right flex flex-row pr-5 pb-10"><img src="tech/git.png" alt="Git" width="100" height="100"><p class="text-white text-xl pl-1 pt-6">Git</p></div>
-            <div class="float-right flex flex-row pr-5 pb-10"><img src="tech/vsc.svg" alt="VsCode" width="100" height="100"><p class="text-white text-xl pl-1 pt-6">VS Code</p></div>
-            <div class="float-right flex flex-row pr-5 pb-10"><img src="tech/tailwindcss.svg" alt="TailwindCSS" width="100" height="100"><p class="text-white text-xl pl-1 pt-6">Tailwind</p></div>
-            <div class="float-right flex flex-row pr-5 pt-10"><img src="tech/nodejs.svg" alt="NodeJs" width="100" height="100"><p class="text-white text-xl pl-1 pt-6">Node Js</p></div>
-            <div class="float-right flex flex-row pr-5 pb-10"><img src="tech/django.png" alt="Django" width="100" height="100"><p class="text-white text-xl pl-1 pt-6">Django</p></div>
-            <div class="float-right flex flex-row pr-5 pb-10"><img src="tech/matplotpng.png" alt="Matplotlib" width="100" height="100"><p class="text-white text-xl pl-1 pt-6">Matplotlib</p></div>
-            <div class="float-right flex flex-row pr-5 pb-10"><img src="tech/pandas.png" alt="Pandas" width="100" height="100"><p class="text-white text-xl pl-1 pt-6">Pandas</p></div>
-            <div class="float-right flex flex-row pr-5 pb-10"><img src="tech/r.png" alt="R" width="100" height="100"><p class="text-white text-xl pl-1 pt-6">R</p></div>
-            <div class="float-right flex flex-row pr-5 pb-10"><img src="tech/typescript.svg" alt="Pandas" width="100" height="100"><p class="text-white text-xl pl-1 pt-6">Typescript</p></div>
-            <div class="float-right flex flex-row pr-5 pb-10"><img src="tech/React.svg.png" alt="R" width="100" height="100"><p class="text-white text-xl pl-1 pt-6">React</p></div>
+        <div>
+            <h1 class="text-gray-100 font-sans text-5xl pb-24">Tech & Tools</h1>
+            <br>
+            <div class="grid grid-cols-5 gap-4 rounded-md hover:animate-bounce float-right pb-24 pl-24">
+                <div class="float-right flex flex-row pr-5 pb-10"><img src="tech/java.png" alt="Java" width="100" height="100"><p class="text-white text-xl pl-1 pt-6">Java</p></div>
+                <div class="float-right flex flex-row pr-5 pb-10"><img src="tech/python.png" alt="Python" width="90" height="40"><p class="text-white text-xl pl-1 pt-6">Python</p></div>
+                <div class="float-right flex flex-row pr-5 pb-10"><img src="tech/numpy.png" alt="Numpy" width="100" height="100"><p class="text-white text-xl pl-1 pt-6">Numpy</p></div>
+                <div class="float-right flex flex-row pr-5 pb-10"><img src="tech/css.png" alt="CSS" width="80" height="80"><p class="text-white text-xl pl-1 pt-6">CSS</p></div>
+                <div class="float-right flex flex-row pr-5 pb-10"><img src="tech/html.png" alt="HTML" width="100" height="100"><p class="text-white text-xl pl-1 pt-6">HTML</p></div>
+                <div class="float-right flex flex-row pr-5 pb-10"><img src="tech/js.png" alt="JS" width="80" height="50"><p class="text-white text-xl pl-1 pt-6">JavaScript</p></div>
+                <div class="float-right flex flex-row pr-5 pb-10"><img src="tech/github1.svg" alt="Github" width="100" height="100"><p class="text-white text-xl pl-1 pt-6">GitHub</p></div>
+                <div class="float-right flex flex-row pr-5 pb-10"><img src="tech/git.png" alt="Git" width="100" height="100"><p class="text-white text-xl pl-1 pt-6">Git</p></div>
+                <div class="float-right flex flex-row pr-5 pb-10"><img src="tech/vsc.svg" alt="VsCode" width="100" height="100"><p class="text-white text-xl pl-1 pt-6">VS Code</p></div>
+                <div class="float-right flex flex-row pr-5 pb-10"><img src="tech/tailwindcss.svg" alt="TailwindCSS" width="100" height="100"><p class="text-white text-xl pl-1 pt-6">Tailwind</p></div>
+                <div class="float-right flex flex-row pr-5 pt-10"><img src="tech/nodejs.svg" alt="NodeJs" width="100" height="100"><p class="text-white text-xl pl-1 pt-6">Node Js</p></div>
+                <div class="float-right flex flex-row pr-5 pb-10"><img src="tech/django.png" alt="Django" width="100" height="100"><p class="text-white text-xl pl-1 pt-6">Django</p></div>
+                <div class="float-right flex flex-row pr-5 pb-10"><img src="tech/matplotpng.png" alt="Matplotlib" width="100" height="100"><p class="text-white text-xl pl-1 pt-6">Matplotlib</p></div>
+                <div class="float-right flex flex-row pr-5 pb-10"><img src="tech/pandas.png" alt="Pandas" width="100" height="100"><p class="text-white text-xl pl-1 pt-6">Pandas</p></div>
+                <div class="float-right flex flex-row pr-5 pb-10"><img src="tech/r.png" alt="R" width="100" height="100"><p class="text-white text-xl pl-1 pt-6">R</p></div>
+                <div class="float-right flex flex-row pr-5 pb-10"><img src="tech/typescript.svg" alt="Pandas" width="100" height="100"><p class="text-white text-xl pl-1 pt-6">Typescript</p></div>
+                <div class="float-right flex flex-row pr-5 pb-10"><img src="tech/React.svg.png" alt="R" width="100" height="100"><p class="text-white text-xl pl-1 pt-6">React</p></div>
+            </div>
         </div>
-        <!--to create a seperation in between for more room-->
         &nbsp;
         <div>
             <hr>
