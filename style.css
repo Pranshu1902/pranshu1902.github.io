@@ -1,0 +1,58 @@
+.animate {
+  width: auto;
+  height: auto;
+  text-align: left;
+  animation-name: animate;
+  animation-duration: 2s;
+}
+
+@keyframes animate {
+  0% {
+    margin-top: -200px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
+
+.headerNew {
+  background-color: #05386b;
+  color: #edf5e1;
+}
+
+.bodyNew {
+  background-color: #5cdb95;
+  color: #edf5e1;
+}
+
+.footerLight {
+  color: #379683;
+}
+
+.footerDark {
+  color: #05386b;
+}
+
+.link:hover {
+  border-color: #edf5e1;
+}
+
+.activeLink {
+  border-color: #edf5e1;
+}
+
+.btn {
+  background-color: #05386b;
+  border-color: #05386b;
+  color: #edf5e1;
+}
+
+.btn:hover {
+  background-color: #edf5e1;
+  border-color: #05386b;
+  color: #05386b;
+}
+
+.mediumBlue {
+  color: #379683;
+}

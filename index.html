@@ -1,63 +1,97 @@
 <html>
+  <head>
+    <title>Pranshu</title>
+    <meta
+      name="google-site-verification"
+      content="p8P0dldOoKo7zrBdDOWjOwzlTMlLQececBbYGqlrMk4"
+    />
+  </head>
+  <link rel="icon" type="image/x-icon" href="p.ico" />
 
-    <head><title>Pranshu</title><meta name="google-site-verification" content="p8P0dldOoKo7zrBdDOWjOwzlTMlLQececBbYGqlrMk4" /></head>
-    <link rel="icon" type="image/x-icon" href="p.ico">
+  <!--Linking to Tailwind-->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <link rel="stylesheet" href="style.css" />
 
-    <style>
-                .animate {
-        width: auto;
-        height: auto;
-        text-align: left;
-        animation-name: animate;
-        animation-duration: 2s;
-        }
+  <!--Main body-->
+  <body
+    class="bodyNew animate scroll-smooth font-bold text-3xl motion-safe:animate-fadeIn"
+  >
+    <!--Links-->
+    <div class="headerNew p-8">
+      <a
+        href="index.html"
+        class="text-2xl transition duration-15 border-b-4 border-transparent activeLink"
+        ><i class="fa fa-home"></i> Home</a
+      >
+      <div class="float-right space-x-7 text-2xl">
+        <a
+          href="project.html"
+          class="transition duration-15 border-b-4 border-transparent link"
+          ><i class="fa fa-lightbulb-o"></i> Projects</a
+        >
+        <a
+          href="about.html"
+          class="transition duration-15 border-b-4 border-transparent link"
+          ><i class="fa fa-info-circle"></i> About Me</a
+        >
+        <a
+          href="contact.html"
+          class="transition duration-15 border-b-4 border-transparent link"
+          ><i class="fa fa-phone"></i> Contact</a
+        >
+      </div>
+    </div>
+    <br />
 
-        @keyframes animate {
-        0% {
-            margin-top: -200px;
-        }
-        100% {
-            margin-top: 10px;
-        }
-        }
-    </style>
-
-    <!--Linking to Tailwind-->
-    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-    <!--Main body-->
-    <body class="animate scroll-smooth font-bold bg-black text-3xl p-5 border-black border-8 motion-safe:animate-fadeIn">
-        <!--Links-->
-        <div>
-            <a href="index.html" class="text-white hover:text-purple-400 text-2xl transition duration-15 border-b-4 border-transparent hover:border-purple-400"><i class="fa fa-home"></i> Home</a>
-            <div class="float-right space-x-7 text-2xl">
-                <a href="project.html" class="text-white hover:text-purple-400 transition duration-15 border-b-4 border-transparent hover:border-purple-400"><i class="fa fa-rocket"></i> Projects</a>
-                <a href="about.html" class="text-white hover:text-purple-400 transition duration-15 border-b-4 border-transparent hover:border-purple-400"><i class="fa fa-tag"></i> About Me</a>
-                <a href="contact.html" class="text-white hover:text-purple-400 transition duration-15 border-b-4 border-transparent hover:border-purple-400"><i class="fa fa-phone"></i> Contact</a>
-            </div>
-        </div>
-        <br>
-
-        <!--Main content-->
-        <div class="pb-48">
-            <h1 class="text-gray-400 font-sans text-6xl pt-20 pb-32">Pranshu Aggarwal</h1>
+    <!--Main content-->
+    <div class="p-4">
+      <div class="pb-48">
+        <h1 class="footerDark font-sans text-9xl pt-20 pb-32">
+          Pranshu Aggarwal
+        </h1>
 
         <!--Intro-->
-        <p class="text-white font-sans text-8xl float-center pt-2 pl-32">Full Stack Developer</p>
-        <br><br>
-    </div>
+        <p class="font-sans text-7xl float-center pt-2 pl-32">
+          Full Stack Developer
+        </p>
+        <br /><br />
+      </div>
 
-    <div class="flex flex-row justify-center pb-12 md:animate-bounce">
-        <a href="https://github.com/Pranshu1902/"><img width="250" height="250" class="pl-12" src="github_circle.png" alt="github"></a>
-        <a href="https://www.linkedin.com/in/pranshu-aggarwal-4aa8181b4/"><img width="250" height="250" class="md:animate-bounce pl-12" src="linkedin_circle.png" alt="linkedin"></a>
-        <a href="https://twitter.com/pranshu1902"><img width="250" height="250" class="pl-12" src="twitter_circle.png" alt="twitter"></a>
-    </div>
-    
-    <!--Ending statement-->
-    <hr>
-    <p style="color: white; text-align: right; font-size: 20px;">Portfolio 2022<br>Designed and developed by Pranshu</p>
+      <div
+        class="flex text-white flex-row justify-center pb-12 md:animate-bounce gap-4 text-9xl"
+      >
+        <a
+          href="https://github.com/Pranshu1902/"
+          style="background-color: #05386b"
+          class="w-1/6 rounded-full flex justify-center items-center"
+          ><i class="p-14 fa fa-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/pranshu-aggarwal-4aa8181b4/"
+          style="background-color: #05386b"
+          class="w-1/6 rounded-full flex justify-center items-center md:animate-bounce"
+          ><i class="p-14 fa fa-linkedin-square"></i
+        ></a>
+        <a
+          href="https://twitter.com/pranshu1902"
+          style="background-color: #05386b"
+          class="w-1/6 rounded-full flex justify-center items-center"
+          ><i class="p-14 fa fa-twitter"></i
+        ></a>
+      </div>
 
+      <!--Ending statement-->
+      <hr style="color: #05386b" />
+      <p class="footerDark" style="text-align: right; font-size: 20px">
+        Portfolio 2022<br />Designed and developed by Pranshu
+      </p>
     </div>
-    </body>
+  </body>
 </html>
