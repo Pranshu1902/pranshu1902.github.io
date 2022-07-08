@@ -87,7 +87,7 @@ projects.forEach((project, index) => {
   href="${project.link}"
   target="_blank"
 >
-  <button class="font-bold border-2 btn rounded-lg px-4 py-1" type="button">
+  <button class="font-bold border-2 btn rounded-lg px-4 py-1 transition duration-500" type="button">
     Checkout
   </button>
 </a>`)
@@ -110,7 +110,7 @@ projects.forEach((project, index) => {
         <br /><br />
         ${projectLink}
         <a class="pl-4" href=${project.repo} target="_blank">
-          <button class="font-bold border-2 btn rounded-lg px-4 py-1" type="button">
+          <button class="font-bold border-2 btn rounded-lg px-4 py-1 transition duration-500" type="button">
             Code
           </button>
         </a>
