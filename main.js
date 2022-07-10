@@ -1,3 +1,4 @@
+// projects.html
 let projects = [
   {
     title: "Money Manager",
@@ -79,8 +80,10 @@ let projectLink = "";
 
 projects.forEach((project, index) => {
   index % 2 == 0
-    ? (divClass = "flex flex-col lg:flex-row gap-4")
-    : (divClass = "flex flex-col lg:flex-row-reverse gap-4");
+    ? (divClass =
+        "flex container reveal flex-col md:flex-row lg:flex-row gap-4")
+    : (divClass =
+        "flex flex-col containter reveal md:flex-row-reverse lg:flex-row-reverse gap-4");
 
   project.link
     ? (projectLink = `<a
@@ -88,14 +91,14 @@ projects.forEach((project, index) => {
   target="_blank"
 >
   <button class="font-bold border-2 btn rounded-lg px-4 py-1 transition duration-500" type="button">
-    Checkout
+    Try it!
   </button>
 </a>`)
     : (projectLink = "");
 
   mainCode += `
   <div class="${divClass}">
-    <div class="w-1/2">
+    <div class="w-full md:w-1/2 lg:w-1/2">
       <img
         src="${project.image}"
         class="rounded-lg"
@@ -104,7 +107,7 @@ projects.forEach((project, index) => {
         height="50%"
       />
     </div>
-    <div class="w-1/2">
+    <div class="w-full md:w-1/2 lg:w-1/2">
       <p class="pl-10 pb-12 font-medium">
         <b class="footerDark text-5xl">${project.title}</b><br /><br />${project.description}
         <br /><br />
@@ -120,3 +123,22 @@ projects.forEach((project, index) => {
 });
 
 div.innerHTML = mainCode;
+
+// projects.html
+function reveal() {
+  var reveals = document.querySelectorAll(".reveal");
+
+  for (var i = 0; i < reveals.length; i++) {
+    var windowHeight = window.innerHeight;
+    var elementTop = reveals[i].getBoundingClientRect().top;
+    var elementVisible = 150;
+
+    if (elementTop < windowHeight - elementVisible) {
+      reveals[i].classList.add("active");
+    } else {
+      reveals[i].classList.remove("active");
+    }
+  }
+}
+
+window.addEventListener("scroll", reveal);
