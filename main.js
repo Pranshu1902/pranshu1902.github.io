@@ -1,6 +1,14 @@
 // projects.html
 let projects = [
   {
+    title: "Survey Form",
+    description:
+      "Enter data and view their entries stored in localstorage of your browser.",
+    image: "projects/survey.png",
+    link: "survey_form/form.html",
+    repo: "https://github.com/Pranshu1902/pranshu1902.github.io/blob/master/survey_form/form.html",
+  },
+  {
     title: "Money Manager",
     description:
       "Ever felt like spending a lot of money without keeping any track? Use our site to manage all your money and know exactly where it is going.",
